@@ -8,7 +8,7 @@ function edad(){
         alert("puedes navegar tranquilamente por esta pagina web");
     }else if( edad < 18 && edad>0){
         alert("Lo sentimos; no tienes la edad suficiente para navegar por esta pagina web");
-        window.close();
+        window.open("about:blank","_self").close()  
     }
 
 }
